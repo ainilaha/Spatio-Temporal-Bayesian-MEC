@@ -1,7 +1,7 @@
 library(readxl)
 library(dplyr)
 # read data from excel file
-xls_shanghai <- read_excel("data/data.xlsx",sheet = "aft615",n_max=10000)
+xls_shanghai <- read_excel("data/data.xlsx",sheet = "aft615",n_max=100000)
 # drop out the rows with NA
 xls_shanghai <- na.omit(xls_shanghai)
 
